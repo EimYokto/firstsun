@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:firstsun/backend/database.dart';
 import 'package:firstsun/config/constant.dart';
