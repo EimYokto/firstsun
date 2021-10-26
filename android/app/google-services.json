@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121082404704",
+    "project_id": "firstsun-f2ab8",
+    "storage_bucket": "firstsun-f2ab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121082404704:android:8f25089a4f23c848d88805",
+        "android_client_info": {
+          "package_name": "com.example.firstsun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121082404704-vmjnuh3v72bug53lotoo2truic946ndt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCYoDleKNbi_47PTfogYCqhnXzopKjcRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121082404704-vmjnuh3v72bug53lotoo2truic946ndt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

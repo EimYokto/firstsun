@@ -1,4 +1,4 @@
-package com.example.mobilefirst
+package com.example.firstsun
 
 import io.flutter.embedding.android.FlutterActivity
 
