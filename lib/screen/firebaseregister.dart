@@ -1,5 +1,7 @@
 import 'dart:ffi';
 
+import 'package:firstsun/screen/Firebaselogin.dart';
+import 'package:firstsun/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firstsun/config/constant.dart';
@@ -129,7 +131,12 @@ class _FirebaseRegisterState extends State<FirebaseRegister> {
       await FirebaseAuth.instance
           .createUserWithEmailAndPassword(email: email, password: password)
           .then((response) {
-        print(response);
+        //print(response);
+        setupProfile();
+        MaterialPageRoute materialPageRoute = MaterialPageRoute(
+            builder: (BuildContext context) => FirebaseLogin());
+        Navigator.of(context).pushAndRemoveUntil(
+            materialPageRoute, (Route<dynamic> route) => false);
       });
     } catch (e) {
       print(e);

@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "121082404704",
     "project_id": "firstsun-f2ab8",
+    "firebase_url": "https://firstsun-f2ab8-default-rtdb.firebaseio.com/", 
     "storage_bucket": "firstsun-f2ab8.appspot.com"
   },
   "client": [
